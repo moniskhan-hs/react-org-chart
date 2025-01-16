@@ -38,9 +38,9 @@ const CustomNode: React.FC<{ node: any }> = ({ node }) => {
         x={0} 
         y={5} 
         textAnchor="middle"
-        fill="#fff" 
-        fontSize={12} 
-        fontWeight={depth === 0 ? 'bold' : 'normal'} // Bold for root
+        fill="#FF5F1F" 
+        fontSize={20} 
+        fontWeight={'bold'} // Bold for root
         >
          {/*--------------------------------------- Display node name */}
         {data.name}
